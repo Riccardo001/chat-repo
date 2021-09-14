@@ -1,0 +1,208 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.people {
+    background-color: #2b3e4f;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat {
+    background-color: #e6eaeb;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.me {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.me img {
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 3px solid #32b972;
+    padding: 4px;
+}
+
+.people img {
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.chat img {
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+header {
+    background-color: white;
+}
+
+p {
+    display: inline-flex;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.contacts {
+    color:white;
+}
+
+.contatti {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text {
+    height: 50%;
+    margin-left: 20px;
+}
+
+.icone {
+    display: inline-flex;
+    float:right;
+    font-size: 40px;
+    padding: 10px;
+    color: #3d5b74;
+}
+
+input {
+    width: 90%;
+    border: 0;
+    height: 55px;
+    font-size: 25px;
+
+}
+
+.clip {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.plane {
+    font-size: 30px;
+    color:white;
+    background-color: #2b3e4f;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.ricerca {
+    background-color: #3d5b74;
+    height: 60px;
+}
+
+.lente {
+    font-size: 20px;
+    background-color: transparent;
+    color:white;
+    border-style: hidden;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: 10px;
+    
+}
+
+.add {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.settings {
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.infocontact {
+    background-color: white;
+}
+
+.addsettings {
+    display: flex;
+}
+
+.allcontact {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.addsettings button {
+    height: 50px;
+    background-color: #3f505f;
+    border-right: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    font-size: 18px;
+    color:white;
+    width: 100%;
+}
+
+.messageme {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.messageme p {
+    font-size: 18px;
+    display: inline-flex;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+    flex: end;
+    padding: 12px;
+    line-height: 22px;
+}
+
+.messagecontact p {
+    font-size: 18px;
+    display: inline-flex;
+    background-color: #3f505f;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+    padding: 12px;
+    line-height: 22px;
+}
+
+
+.messages {
+    flex-grow: 1;
+    margin-right: 15px;
+    overflow-y: auto;
+    margin-right: 0px;
+}
+
+::-webkit-input-placeholder {
+    color:white;   
+}
+
+.elenco {
+    margin-top: 15px;
+}
