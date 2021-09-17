@@ -46,6 +46,39 @@ body {
     margin-top: 20px;
 }
 
+.pallinorosso {
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    position: absolute;
+    top: 22%;
+    left: 2.5%;
+    border: 3px solid #2b3e4f;
+}
+
+.pallinoverde {
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    position: absolute;
+    top: 22%;
+    left: 2.5%;
+    border: 3px solid #2b3e4f;
+}
+
+.pallinogiallo {
+    background-color: #e0ad21;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    position: absolute;
+    top: 22%;
+    left: 2.5%;
+    border: 3px solid #2b3e4f;
+}
+
 .chat img {
     height: 50px;
     border-radius: 50px;
@@ -66,6 +99,7 @@ p {
 
 .contacts {
     color:white;
+    position: relative;
 }
 
 .contatti {
